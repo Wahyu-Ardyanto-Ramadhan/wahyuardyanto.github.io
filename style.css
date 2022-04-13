@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/* Menu Login */
+
+body {
+    background: #EADEB8;
+}
+
+h2.awal {
+    font-weight: bold;
+    font-family: 'Arvo', serif;
+}
+
+.judul {
+    font-size: 50px;
+    color: #916BBF;
+}
+
+.atau {
+    font-size: 20px;
+}
+
+img.log {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    width: 48%;
+}
+
+
+.kolom {
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    right: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+a.tbl-login {
+    font-size: 25px;
+    text-decoration: none;
+    background: #916BBF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 100px 15px 100px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-login:hover {
+    background: #1C0C5B;
+}
+
+/* Menu Masuk dan Daftar */
+
+h1.logo {
+    font-family: 'Arvo', serif;
+    position: relative;
+    color: #916BBF;
+    margin-left: 40px;
+}
+
+.dft {
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 35%;
+}
+
+.dft1 {
+    position: relative;
+    float: left;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.daf {
+    color: #916BBF;
+    font-family: 'Teko', sans-serif;
+}
+
+.klm {
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    line-height: 30px;
+}
+
+.msk1 {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+    border-color: #1C0C5B;
+    padding: 5px 50px 5px 50px;
+    background: #916BBF;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.msk1:hover {
+    background: #FFC898;
+}
+
+.msk1:hover::placeholder {
+    background: #FFC898;
+    color: black;
+}
+
+.msk1::placeholder {
+    font-size: 20px;
+    color: #ffff;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+
+.btn-masuk {
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+    background: #916BBF;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 8px 50px 8px 50px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.btn-masuk:hover {
+    background: #1C0C5B;
+}
+
+.usr {
+    width: 200px;
+    text-align: center;
+    border-color: #1C0C5B;
+    padding: 5px 50px 5px 50px;
+    background: #916BBF;
+    border-radius: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.usr:hover {
+    background: #FFC898;
+}
+
+.usr:hover::placeholder {
+    background: #FFC898;
+    color: black;
+}
+
+.usr::placeholder {
+    font-size: 20px;
+    color: #ffff;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+
+/* Menu HomePage */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lg {
+    font-family: 'Arvo', serif;
+}
+
+p.par {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.g4 {
+    width: 50%;
+}
+
+.select {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kl1 {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kl1 .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #916BBF;
+}
+
+.kl2 {
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kl2 .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #916BBF;
+}
+
+.jd {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #916BBF;
+    width: 100%;
+    line-height: 50%;
+}
+
+a.tbl-lanjut {
+    text-decoration: none;
+    background: #916BBF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-lanjut:hover {
+    background: #1C0C5B;
+    text-decoration: none;
+}
+
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    line-height: 25px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #916BBF;
+    width: 100%;
+    line-height: 50px;
+}
+
+.create-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-create {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-create img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-create p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #364f6b;
+}
+
+/* Menu Form */
+
+.form {
+    font-size: 20px;
+    color: #916BBF;
+}
+
+.klm3 {
+    font-family: 'Arvo', serif;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.msk3 {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+    border-color: #1C0C5B;
+    padding: 5px 10px 5px 10px;
+    background: #916BBF;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.msk3:hover {
+    background: #FFC898;
+}
+
+.msk3:hover::placeholder {
+    background: #FFC898;
+    color: black;
+}
+
+.msk3::placeholder {
+    font-size: 20px;
+    color: #ffff;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+
+.msk4 {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    border-color: #1C0C5B;
+    padding: 5px 10px 5px 10px;
+    background: #916BBF;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.msk4:hover {
+    background: #FFC898;
+}
+
+.msk4:hover::placeholder {
+    background: #FFC898;
+    color: black;
+}
+
+.msk4::placeholder {
+    font-size: 20px;
+    color: #ffff;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+
+.msk5 {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    width: 270px;
+    height: 40px;
+    text-align: center;
+    border-color: #1C0C5B;
+    padding: 5px 10px 5px 10px;
+    background: #916BBF;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.msk5:hover {
+    background: #FFC898;
+}
+
+.msk5:hover::placeholder {
+    background: #FFC898;
+    color: black;
+}
+
+.msk5::placeholder {
+    font-size: 20px;
+    color: #ffff;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+
+/* Menu Terimakasih */
+
+.thnks {
+    text-align: center;
+}
+
+.gb7 {
+    width: 30%;
+}
+
+a.btn-masuk1 {
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+    background: #916BBF;
+    border-radius: 10px;
+    padding: 8px 50px 8px 50px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-masuk1:hover {
+    background: #1C0C5B;
+}
+
+/* Menu Daftar Buku */
+
+table {
+    width: 100%;
+    border-color: #916BBF;
+}
+
+.link {
+    text-decoration: none;
+    background-color: #916BBF;
+    color: #ffff;
+    border-radius: 20px;
+    padding: 8px 50px 8px 50px;
+}
